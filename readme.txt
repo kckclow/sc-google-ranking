@@ -27,6 +27,7 @@ Navigate to "SCGoogleRanking" link in admin panel left menu, enter the keywords 
 Google Domain is to define which country the keyword search to execute.
 
 == Screenshots ==
+1. SC Google Ranking tool.
 
 
 == Changelog ==

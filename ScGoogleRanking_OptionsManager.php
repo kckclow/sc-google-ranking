@@ -322,8 +322,8 @@ class ScGoogleRanking_OptionsManager {
                                 <th scope="row"><p><label for="<?php echo $aOptionKey ?>"><?php echo $displayText ?></label></p></th>
                                 <td>
                                 <?php $this->createFormControl($aOptionKey, $aOptionMeta, $this->getOption($aOptionKey)); ?>
-                                <span><?php if ($aOptionKey == 'YourKeywords') echo 'Enter the search keywords separate by space (e.g. budget homestay)';?>
-                                	<?php if ($aOptionKey == 'GoogleDomain') echo 'Select which Google domain the perform search. Different search result return by different Google domain.';?>
+                                <span><?php if ($aOptionKey == 'YourKeywords') echo 'Enter the search keywords separate by space (e.g. budget homestay). Exactly like what you enter to the Google search bar.';?>
+                                	<?php if ($aOptionKey == 'GoogleDomain') echo 'Select which Google domain your are searching at. Different search result return by different Google domain.';?>
                                 </span>
                                 </td>
                             </tr>
@@ -336,7 +336,20 @@ class ScGoogleRanking_OptionsManager {
                     <input type="submit" class="button-primary"
                            value="<?php _e('Save Changes', 'sc-google-ranking') ?>"/>
                 </p>
-            </form>                  
+            </form>   
+            
+            <h2>Need to record your Google ranking everyday? </h2>  
+            <p>See how your website&#39;s ranking going well while you maintaining your website&#39;s content and SEO. We will help you to keep track your ranking result everyday. We will provide simple daily keyword rank tracking reports. 
+            	You will be able to compare with your competitor&#39;s ranking as well.
+            </p>
+            <p>Please provide the following and email to <a href="mailto:saucode@google.com">saucode@google.com</a>:</p> 
+		<ol>
+			<li>Your email address</li>
+			<li>Your website’s URL</li>
+			<li>Your competitor’s website URL</li>
+			<li>Search keywords</li>
+		</ol>
+		<p>An email of instruction with a website URL, and login will be sent to you. You will be able to access to the website to view your report.</p>             
         
         <?php
     }
@@ -432,15 +445,16 @@ class ScGoogleRanking_OptionsManager {
      * @return void
      */
     protected function createFormControl($aOptionKey, $aOptionMeta, $savedOptionValue) {
+    
         if (is_array($aOptionMeta) && count($aOptionMeta) >= 2) { // Drop-down list
             $choices = array_slice($aOptionMeta, 1);
             ?>
             <p><select name="<?php echo $aOptionKey ?>" id="<?php echo $aOptionKey ?>">
-            <?php
+            <?php 
                             foreach ($choices as $aChoice) {
-                $selected = ($aChoice == $savedOptionValue) ? 'selected' : '';
+                $selected = ($aChoice['value'] == $savedOptionValue) ? 'selected' : '';
                 ?>
-                    <option value="<?php echo $aChoice ?>" <?php echo $selected ?>><?php echo $this->getOptionValueI18nString($aChoice) ?></option>
+                    <option value="<?php echo $aChoice['value'] ?>" <?php echo $selected ?>><?php echo $this->getOptionValueI18nString($aChoice['text']) ?></option>
                 <?php
             }
             ?>

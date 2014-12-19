@@ -1,18 +1,18 @@
 === SC Google Ranking ===
 Contributors: SauceCode
 Donate link:
-Tags:
+Tags: google, search, result, ranking, seo, keyword
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.5
-Tested up to: 4.0
-Stable tag: 0.1
+Tested up to: 4.1
+Stable tag: 1.0
 
 Get the ranking of your site in Google search engine provided with keywords
 
 == Description ==
 
-This plugin lets you know the ranking of your website in Google search when you search by keywords. You can define which country you would like to search as Google search result is different by country. 
+This plugin lets you know the ranking of your website in Google search result provided with keywords. You can define which country's Google domain you would like to search as Google search result is different by country. 
 
 Keep monitor your website in the best ranking by using this plugin.
 
@@ -24,13 +24,22 @@ Keep monitor your website in the best ranking by using this plugin.
 1. How to see my ranking?
 Navigate to "SCGoogleRanking" link in admin panel left menu, enter the keywords (e.g. homestay buget), then save the changes.
 2. What is Google Domain?
-Google Domain is to define which country the keyword search to execute.
+Google Domain is to define which country the keyword search engine to execute. Different Google domain will return different list of search results.
+3. Is this plugin working in in my local development environemnt?
+This plugin will not work in local development environment. 
+4. How many keywords I can provide in the Keywords input?
+You can put as many as you like. Primarily, targeting about 5 keywords is recommended.
 
 == Screenshots ==
-1. SC Google Ranking tool.
+1. SC Google Ranking tool, showing the ranking of your website today provided with keywords.
+2. Ranking based on the Google search result
 
 
 == Changelog ==
 
 = 0.1 =
 - Initial Revision
+= 1.0 =
+- Stable version
+- Added more Google domains
+- Added value service available to help you record your ranking daily.

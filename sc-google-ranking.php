@@ -2,7 +2,7 @@
 /*
    Plugin Name: SC Google Ranking
    Plugin URI: http://wordpress.org/extend/plugins/sc-google-ranking/
-   Version: 0.1
+   Version: 1.0
    Author: SauceCode
    Description: Get the ranking of your URL in Google search engine provided with keywords
    Text Domain: sc-google-ranking

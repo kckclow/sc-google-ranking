@@ -16,6 +16,15 @@ This plugin lets you know the ranking of your website in Google search result pr
 
 Keep monitor your website in the best ranking by using this plugin.
 
+Search result ranking appears in this plugin is not take into account of:-
+1. Search History: A user’s search results page can vary depending on what websites they’ve visited before. 
+
+2. Geography/Local Results: Google will show different results depending on the current location of an individual and where they live. 
+
+3. Social Media: Preference will be given to the endorsement of friends. 
+
+4. Device: SERPs can vary depending on the device you are using to search.
+
 == Installation ==
 1. Upload the SC Google Ranking plugin to your WordPress and activate it.
 2. Navigate to "SCGoogleRanking" link in admin panel left menu.

@@ -28,19 +28,19 @@ Search result ranking appears in this plugin is not take into account of:-
 2. Navigate to "SCGoogleRanking" link in admin panel left menu.
 
 == Frequently Asked Questions ==
-1. How to see my ranking?
+* How to see my ranking?
 
 Navigate to "SCGoogleRanking" link in admin panel left menu, enter the keywords (e.g. homestay buget), then save the changes.
 
-2. What is Google Domain?
+* What is Google Domain?
 
 Google Domain is to define which country the keyword search engine to execute. Different Google domain will return different list of search results.
 
-3. Is this plugin working in in my local development environment?
+* Is this plugin working in in my local development environment?
 
 This plugin will not work in local development environment. 
 
-4. How many keywords I can provide in the Keywords input?
+* How many keywords I can provide in the Keywords input?
 
 You can put as many as you like. Primarily, targeting about 5 keywords is recommended.
 

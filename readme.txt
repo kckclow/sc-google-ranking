@@ -20,7 +20,7 @@ Search result ranking appears in this plugin is not take into account of:-
 
 1. Search History: A user’s search results page can vary depending on what websites they’ve visited before. 
 2. Geography/Local Results: Google will show different results depending on the current location of an individual and where they live. 
-3. Social Media: Preference will be given to the endorsement of friends. 
+3. Social Media: Preference will be given to the endorsement of friends from social media such as Facebook, Google+ and etc. 
 4. Device: SERPs can vary depending on the device you are using to search.
 
 == Installation ==
@@ -29,13 +29,13 @@ Search result ranking appears in this plugin is not take into account of:-
 
 == Frequently Asked Questions ==
 1. How to see my ranking?
-Navigate to "SCGoogleRanking" link in admin panel left menu, enter the keywords (e.g. homestay buget), then save the changes.
-2. What is Google Domain?
-Google Domain is to define which country the keyword search engine to execute. Different Google domain will return different list of search results.
-3. Is this plugin working in in my local development environemnt?
-This plugin will not work in local development environment. 
-4. How many keywords I can provide in the Keywords input?
-You can put as many as you like. Primarily, targeting about 5 keywords is recommended.
+* Navigate to "SCGoogleRanking" link in admin panel left menu, enter the keywords (e.g. homestay buget), then save the changes.
+1. What is Google Domain?
+* Google Domain is to define which country the keyword search engine to execute. Different Google domain will return different list of search results.
+1. Is this plugin working in in my local development environment?
+* This plugin will not work in local development environment. 
+1. How many keywords I can provide in the Keywords input?
+* You can put as many as you like. Primarily, targeting about 5 keywords is recommended.
 
 == Screenshots ==
 1. SC Google Ranking tool, showing the ranking of your website today provided with keywords.

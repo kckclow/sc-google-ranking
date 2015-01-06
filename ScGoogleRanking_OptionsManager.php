@@ -342,7 +342,7 @@ class ScGoogleRanking_OptionsManager {
             <p>See how your website&#39;s ranking going well while you maintaining your website&#39;s content and SEO. We will help you to keep track your ranking result everyday. We will provide simple daily keyword rank tracking reports. 
             	You will be able to compare with your competitor&#39;s ranking as well.
             </p>
-            <p>Please provide the following and email to <a href="mailto:saucode@google.com">saucode@google.com</a>:</p> 
+            <p>Please provide the following and email to <a href="mailto:saucode@gmail.com">saucode@gmail.com</a>:</p> 
 		<ol>
 			<li>Your email address</li>
 			<li>Your website’s URL</li>

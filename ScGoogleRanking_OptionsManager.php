@@ -338,18 +338,7 @@ class ScGoogleRanking_OptionsManager {
                 </p>
             </form>   
             
-            <h2>Need to record your Google ranking everyday? </h2>  
-            <p>See how your website&#39;s ranking going well while you maintaining your website&#39;s content and SEO. We will help you to keep track your ranking result everyday. We will provide simple daily keyword rank tracking reports. 
-            	You will be able to compare with your competitor&#39;s ranking as well.
-            </p>
-            <p>Please provide the following and email to <a href="mailto:saucode@gmail.com">saucode@gmail.com</a>:</p> 
-		<ol>
-			<li>Your email address</li>
-			<li>Your website’s URL</li>
-			<li>Your competitor’s website URL</li>
-			<li>Search keywords</li>
-		</ol>
-		<p>An email of instruction with a website URL, and login will be sent to you. You will be able to access to the website to view your report.</p>             
+    
         
         <?php
     }
